@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sagitta</title>
+    <link rel="shortcut icon" href="img/realce.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="navLinks">
+                    <a href="#aboutUs">Quienes somos</a>
+                    <a href="faq.html">FAQ</a>
+                    <a href="#">Contacto</a>
+                    <div class="dropdownItem">
+                        <p style="cursor: pointer">Productos</p>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="#">Signos</a></li>
+                                <li><a href="#">Cristal Starter Kit</a></li>
+                                <li><a href="#">Chakras</a></li>
+                                <li><a href="#">Kit varios</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div id="menuToggle">
+                    <!--
+                            menu escondido para deskopt
+                            -->
+                    <input type="checkbox" />
+                    <!--
+                            menu hamburguesa
+                            -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <ul id="menuMovil">
+                        <a href="#">
+                            <li>Quienes Somos</li>
+                        </a>
+                        <a href="#">
+                            <li>FAQ</li>
+                        </a>
+                        <a href="#">
+                            <li>Contacto</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <h1><a href="inicio.html">sagitta</a></h1>
+        <div class="redes">
+            <div class="logoRedes pinterest">
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 35 35" fill="none">
+                        <path
+                            d="M17.4938 2.91663C9.43132 2.91663 2.9165 9.44343 2.9165 17.494C2.9165 23.6728 6.7558 28.9519 12.1788 31.0755C12.0468 29.9237 11.9389 28.148 12.2268 26.8882C12.4908 25.7484 13.9305 19.6416 13.9305 19.6416C13.9305 19.6416 13.4986 18.7657 13.4986 17.482C13.4986 15.4543 14.6743 13.9426 16.1381 13.9426C17.3859 13.9426 17.9858 14.8784 17.9858 15.9942C17.9858 17.242 17.1939 19.1137 16.774 20.8533C16.426 22.3051 17.5058 23.4929 18.9336 23.4929C21.5251 23.4929 23.5167 20.7574 23.5167 16.8221C23.5167 13.3307 21.0092 10.8952 17.4218 10.8952C13.2706 10.8952 10.835 14.0026 10.835 17.218C10.835 18.4658 11.315 19.8095 11.9149 20.5414C12.0348 20.6854 12.0468 20.8173 12.0108 20.9613C11.9029 21.4172 11.6509 22.4131 11.6029 22.617C11.5429 22.881 11.3869 22.941 11.111 22.809C9.31132 21.9451 8.18354 19.2816 8.18354 17.146C8.18354 12.5509 11.5189 8.32763 17.8178 8.32763C22.8689 8.32763 26.8041 11.927 26.8041 16.7501C26.8041 21.7772 23.6367 25.8204 19.2455 25.8204C17.7698 25.8204 16.378 25.0526 15.9101 24.1407C15.9101 24.1407 15.1783 26.9242 14.9983 27.6081C14.6743 28.8799 13.7865 30.4636 13.1866 31.4354C14.5544 31.8553 15.9941 32.0833 17.5058 32.0833C25.5564 32.0833 32.0832 25.5565 32.0832 17.506C32.0712 9.44343 25.5444 2.91663 17.4938 2.91663Z"
+                            fill="black" />
+                    </svg>
+                </a>
+            </div>
+            <div class="logoRedes instagram">
+                <a href="https://www.instagram.com/sagitta.uy/" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 35 35" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17.5 4.375C13.9353 4.375 13.489 4.38988 12.089 4.45375C10.6916 4.51763 9.737 4.73987 8.90225 5.0645C8.02725 5.3935 7.23362 5.90975 6.57737 6.57825C5.90994 7.23374 5.39338 8.02681 5.06362 8.90225C4.74075 9.737 4.51763 10.6925 4.45375 12.0899C4.39075 13.489 4.375 13.9344 4.375 17.5C4.375 21.0656 4.38988 21.511 4.45375 22.911C4.51763 24.3084 4.73987 25.263 5.0645 26.0977C5.3935 26.9727 5.90975 27.7664 6.57825 28.4226C7.23376 29.09 8.02682 29.6066 8.90225 29.9364C9.737 30.2601 10.6916 30.4824 12.089 30.5462C13.489 30.6101 13.9353 30.625 17.5 30.625C21.0648 30.625 21.511 30.6101 22.911 30.5462C24.3084 30.4824 25.263 30.2601 26.0977 29.9355C26.9727 29.6065 27.7664 29.0903 28.4226 28.4218C29.0901 27.7663 29.6066 26.9732 29.9364 26.0977C30.2601 25.263 30.4824 24.3084 30.5462 22.911C30.6101 21.511 30.625 21.0648 30.625 17.5C30.625 13.9353 30.6101 13.489 30.5462 12.089C30.4824 10.6916 30.2601 9.737 29.9355 8.90225C29.606 8.02643 29.0894 7.23303 28.4218 6.57737C27.7663 5.90994 26.9732 5.39338 26.0977 5.06362C25.263 4.74075 24.3075 4.51763 22.9101 4.45375C21.511 4.39075 21.0656 4.375 17.5 4.375ZM17.5 6.74013C21.0044 6.74013 21.42 6.75325 22.8043 6.81625C24.0835 6.87488 24.7782 7.0875 25.2411 7.26863C25.8536 7.50575 26.2911 7.791 26.7505 8.2495C27.2099 8.70888 27.4943 9.14637 27.7314 9.75887C27.9116 10.2217 28.1251 10.9165 28.1838 12.1957C28.2467 13.58 28.2599 13.9956 28.2599 17.5C28.2599 21.0044 28.2467 21.42 28.1838 22.8043C28.1251 24.0835 27.9125 24.7782 27.7314 25.2411C27.5213 25.8112 27.1861 26.327 26.7505 26.7505C26.3271 27.1862 25.8113 27.5214 25.2411 27.7314C24.7782 27.9116 24.0835 28.1251 22.8043 28.1838C21.42 28.2467 21.0053 28.2599 17.5 28.2599C13.9948 28.2599 13.58 28.2467 12.1957 28.1838C10.9165 28.1251 10.2217 27.9125 9.75887 27.7314C9.18877 27.5213 8.67301 27.1861 8.2495 26.7505C7.8139 26.327 7.47874 25.8112 7.26863 25.2411C7.08837 24.7782 6.87488 24.0835 6.81625 22.8043C6.75325 21.42 6.74013 21.0044 6.74013 17.5C6.74013 13.9956 6.75325 13.58 6.81625 12.1957C6.87488 10.9165 7.0875 10.2217 7.26863 9.75887C7.50575 9.14637 7.791 8.70888 8.2495 8.2495C8.67295 7.81379 9.18873 7.4786 9.75887 7.26863C10.2217 7.08837 10.9165 6.87488 12.1957 6.81625C13.58 6.75325 13.9956 6.74013 17.5 6.74013Z"
+                            fill="black" />
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M17.5002 21.8794C16.925 21.8794 16.3556 21.7662 15.8242 21.5461C15.2929 21.326 14.8101 21.0034 14.4035 20.5967C13.9968 20.1901 13.6742 19.7073 13.4541 19.176C13.2341 18.6446 13.1208 18.0752 13.1208 17.5001C13.1208 16.925 13.2341 16.3555 13.4541 15.8241C13.6742 15.2928 13.9968 14.81 14.4035 14.4034C14.8101 13.9967 15.2929 13.6741 15.8242 13.454C16.3556 13.234 16.925 13.1207 17.5002 13.1207C18.6616 13.1207 19.7755 13.5821 20.5968 14.4034C21.4181 15.2247 21.8795 16.3386 21.8795 17.5001C21.8795 18.6615 21.4181 19.7755 20.5968 20.5967C19.7755 21.418 18.6616 21.8794 17.5002 21.8794ZM17.5002 10.7538C15.7109 10.7538 13.995 11.4646 12.7298 12.7297C11.4647 13.9949 10.7539 15.7108 10.7539 17.5001C10.7539 19.2893 11.4647 21.0052 12.7298 22.2704C13.995 23.5355 15.7109 24.2463 17.5002 24.2463C19.2894 24.2463 21.0053 23.5355 22.2705 22.2704C23.5356 21.0052 24.2464 19.2893 24.2464 17.5001C24.2464 15.7108 23.5356 13.9949 22.2705 12.7297C21.0053 11.4646 19.2894 10.7538 17.5002 10.7538ZM26.209 10.6313C26.209 11.0542 26.041 11.4599 25.742 11.7589C25.4429 12.058 25.0373 12.226 24.6143 12.226C24.1914 12.226 23.7858 12.058 23.4867 11.7589C23.1877 11.4599 23.0197 11.0542 23.0197 10.6313C23.0197 10.2084 23.1877 9.80276 23.4867 9.50369C23.7858 9.20463 24.1914 9.03662 24.6143 9.03662C25.0373 9.03662 25.4429 9.20463 25.742 9.50369C26.041 9.80276 26.209 10.2084 26.209 10.6313Z"
+                            fill="black" />
+                    </svg>
+            </div>
+            </a>
+            <div class="logoRedes facebook">
+                <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 35 35" fill="none">
+                        <path
+                            d="M32.0832 17.5884C32.0832 9.48496 25.5547 2.91663 17.4998 2.91663C9.44498 2.91663 2.9165 9.48496 2.9165 17.5884C2.9165 24.9132 8.24817 30.9827 15.2209 32.0833V21.8302H11.5187V17.5875H15.2209V14.3558C15.2209 10.6788 17.3978 8.6469 20.7296 8.6469C22.324 8.6469 23.9943 8.93371 23.9943 8.93371V12.5445H22.1539C20.3426 12.5445 19.7787 13.6762 19.7787 14.837V17.5884H23.8232L23.1766 21.8293H19.7787V32.0833C26.7515 30.9827 32.0832 24.9132 32.0832 17.5884Z"
+                            fill="black" />
+                    </svg>
+                </a>
+            </div>
+            <div class="logoRedes tiktok">
+                <a href="#" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        viewBox="0 0 35 35" fill="none">
+                        <path
+                            d="M26.4182 8.763C24.8471 7.73862 23.7132 6.09961 23.3594 4.18897C23.283 3.77616 23.241 3.35131 23.241 2.91663H18.2267L18.2187 23.0124C18.1344 25.2628 16.2822 27.0689 14.0116 27.0689C13.3059 27.0689 12.6414 26.8925 12.0564 26.5846C10.7147 25.8786 9.79658 24.4723 9.79658 22.8539C9.79658 20.5296 11.6875 18.6387 14.0116 18.6387C14.4455 18.6387 14.8617 18.7103 15.2553 18.8336V13.7145C14.8479 13.659 14.434 13.6243 14.0116 13.6243C8.92243 13.6243 4.78223 17.7647 4.78223 22.8539C4.78223 25.9764 6.34228 28.7397 8.72233 30.4105C10.2215 31.463 12.045 32.0833 14.0116 32.0833C19.1008 32.0833 23.241 27.9431 23.241 22.8539V12.6637C25.2077 14.0752 27.6173 14.9071 30.2173 14.9071V9.8927C28.8167 9.8927 27.5123 9.47633 26.4182 8.763Z"
+                            fill="black" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="discountBanner">
+            <div class="logoBanner">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path
+                        d="M9 6C9 10.9706 13.0294 15 18 15C18.9093 15 19.787 14.8655 20.6144 14.6147C19.4943 18.3103 16.0613 20.9999 12 20.9999C7.02944 20.9999 3 16.9707 3 12.0001C3 7.93883 5.69007 4.50583 9.38561 3.38574C9.13484 4.21311 9 5.09074 9 6Z"
+                        stroke="#FDFDFD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
+            <div class="pBanner">
+                <p>10% de descuento en el mes del signo - Envíos a todo el país</p>
+            </div>
+        </div>
+        <section>
+            <div class="mesDescuento">
+                <p class="desc"></p>
+            </div>
+        </section>
+
+        <section>
+          
+        </section>
+        
+        <section>
+            <div class="separador"></div>
+            <div class="quienesSomos" id="aboutUs">
+                <h2>Un poco de nosotras..</h2>
+
+                <p>¡Hola a todos! Queremos compartir con ustedes la historia detrás de nuestro emprendimiento:
+                    ¡Sagitta! Somos dos amigas y les contaremos cómo nació este nombre tan especial y por qué nos
+                    representa a ambas.</p>
+
+                <p>Un día, descubrimos que compartimos esta conexión astrológica con el signo de Sagitario. Fue
+                    entonces cuando supimos que nuestro emprendimiento debía llevar un nombre que capturara nuestra
+                    esencia y misión conjunta. Así nació Sagitta.</p>
+
+                <p>Sagitta significa "flecha" en latín y simboliza nuestro deseo de alcanzar el éxito y trascender los
+                    límites. Al igual que una flecha lanzada al horizonte, estamos decididas a apuntar alto y superar
+                    cualquier obstáculo que se interponga en nuestro camino hacia el logro de nuestros sueños.</p>
+
+                <p> Pero Sagitta también representa algo más profundo: la creencia de que cada persona tiene su propio
+                    camino hacia el éxito y la realización personal. Al igual que las flechas pueden seguir diferentes
+                    trayectorias, Sagitta está aquí para guiar y acompañar a otros en su propio viaje, brindándoles las
+                    herramientas necesarias para alcanzar sus objetivos y seguir su propio camino en el mundo.</p>
+
+                <p>Uniendo el Sol, la Luna y el Ascendente de cada una, bajo el nombre de Sagitta, hemos creado un
+                    emprendimiento que refleja nuestra amistad, pasión y compromiso con el crecimiento personal. Sagitta
+                    es un faro que ilumina el camino de aquellos que buscan liberar su potencial y alcanzar nuevas
+                    alturas, llevando consigo la magia de la amistad y la fuerza del signo de Sagitario.</p>
+
+                <p>¡Gracias por ser parte de nuestra historia!</p>
+
+
+            </div>
+        </section>
+    </main>
+    </div>
+</body>
+
+</html>
